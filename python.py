@@ -34,7 +34,7 @@ if __name__ == "__main__":
         result = divide(num1, num2)
     
 
-    print(f"Result: {result}")
+    print(f"Renjngjesult: {result}")
 
     else:
         print("Invalid operator.")
