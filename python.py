@@ -11,14 +11,14 @@ def multiply(a, b):
 
 
 def divide(a, b):
-    if b == 0:
+    if b == 0:+
         raise ValueError("Cannot divide by zero.")
     return a / b
 
 
 if __name__ == "__main__":
     print("Simple Calculator")
-    print("Operations: +, -, *, /")
+    print("Operations: +, -, *, /" )
 
     num1 = float(input("Enter first number: "))
     operator = input("Enter operator (+, -, *, /): ")
@@ -32,8 +32,10 @@ if __name__ == "__main__":
         result = multiply(num1, num2)
     elif operator == "/":
         result = divide(num1, num2)
+    
+
+    print(f"Result: {result}")
+
     else:
         print("Invalid operator.")
         raise SystemExit
-
-    print(f"Result: {result}")
